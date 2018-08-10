@@ -111,6 +111,8 @@
         "components/other/pages/others/others",
         "components/other/pages/others/commodity_attr/commodity_attr",
         "components/other/pages/others/calendar/calendar",
+        "components/other/pages/others/search/search",
+        "components/other/pages/others/wxSearch/wxSearch",
         "components/other/pages/others/waterfall/waterfall",
         "components/other/pages/others/toast/toast",
         "components/other/pages/others/pictures/pictures",

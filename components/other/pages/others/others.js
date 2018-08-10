@@ -5,7 +5,7 @@ Page({
                 id: 'form',
                 name: '表单',
                 open: false,
-                pages: ['form', 'list']
+            pages: ['form', 'list', 'search','wxSearch']
             },
             {
                 id: 'toast',
