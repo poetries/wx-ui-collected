@@ -1,0 +1,11 @@
+.my-class {
+  margin: 20px;
+}
+
+.gray {
+  background-color: #ccc !important;
+}
+
+.white {
+  color: #fff !important;
+}

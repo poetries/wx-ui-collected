@@ -1,0 +1,18 @@
+
+<doc-page title="ACTIONSHEET">
+  <view class="zan-btns" style="margin-top: 30vh;">
+    <zan-button bind:btnclick="openActionsheet">
+      Actionsheet
+    </zan-button>
+  </view>
+
+  <zan-actionsheet
+    show="{{ show }}"
+    actions="{{ actions }}"
+    cancel-text="{{ cancelText }}"
+    cancel-with-mask="{{ cancelWithMask }}"
+    bind:cancel="closeActionSheet"
+    bind:actionclick="clickAction"
+    mask-class="tiny"
+  />
+</doc-page>

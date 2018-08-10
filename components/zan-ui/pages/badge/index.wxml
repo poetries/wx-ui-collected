@@ -1,0 +1,26 @@
+<view class="container">
+
+  <view class="doc-title zan-hairline--bottom zan-hairline--bottom">BADGE</view>
+
+  <view class="demo">
+    <view class="demo__item">
+      <view class="demo__icon">
+        <zan-badge>9</zan-badge>
+      </view>
+    </view>
+    <view class="demo__item">
+      <view class="demo__icon">
+        <zan-badge>19</zan-badge>
+      </view>
+    </view>
+    <view class="demo__item">
+      <view class="demo__icon">
+        <zan-badge
+          background-color="#4b0"
+          box-shadow="none"
+          font-size="{{ 12 }}"
+        >99+</zan-badge>
+      </view>
+    </view>
+  </view>
+</view>
